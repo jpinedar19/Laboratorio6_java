@@ -1,6 +1,6 @@
-package ejercicio6.com.hotel.ejercicio6.service;
+package com.hotel.ejercicio6.service;
 
-import ejercicio6.com.hotel.ejercicio6.model.Reserva;
+import com.hotel.ejercicio6.model.Reserva;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

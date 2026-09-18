@@ -1,7 +1,7 @@
-package ejercicio6.com.hotel.ejercicio6.controller;
+package com.hotel.ejercicio6.controller;
 
-import ejercicio6.com.hotel.ejercicio6.model.Reserva;
-import ejercicio6.com.hotel.ejercicio6.service.ReservaService;
+import com.hotel.ejercicio6.model.Reserva;
+import com.hotel.ejercicio6.service.ReservaService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

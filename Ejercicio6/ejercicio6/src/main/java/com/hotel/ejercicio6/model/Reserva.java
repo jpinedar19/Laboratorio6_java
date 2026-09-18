@@ -1,4 +1,4 @@
-package ejercicio6.com.hotel.ejercicio6.model;
+package com.hotel.ejercicio6.model;
 
 public class Reserva {
     private Long id;
