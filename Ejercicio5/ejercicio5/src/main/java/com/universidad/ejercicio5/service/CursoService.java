@@ -1,6 +1,6 @@
-package com.universidad.ejercicio5.service;
+package ejercicio5.com.universidad.ejercicio5.service;
 
-import com.universidad.ejercicio5.model.Curso;
+import ejercicio5.com.universidad.ejercicio5.model.Curso;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.universidad.ejercicio5.model;
+package ejercicio5.com.universidad.ejercicio5.model;
 
 public class Curso {
     private Long id;
