@@ -1,7 +1,7 @@
-package ejercicio5.com.universidad.ejercicio5.controller;
+package com.universidad.ejercicio5.controller;
 
-import ejercicio5.com.universidad.ejercicio5.model.Curso;
-import ejercicio5.com.universidad.ejercicio5.service.CursoService;
+import com.universidad.ejercicio5.model.Curso;
+import com.universidad.ejercicio5.service.CursoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

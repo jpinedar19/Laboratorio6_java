@@ -1,34 +1,34 @@
-package ejercicio5.com.universidad.ejercicio5.model;
+package com.universidad.ejercicio5.model;
 
 public class Curso {
     private Long id;
-    private String codigo;
     private String nombre;
+    private String codigo;
     private Integer creditos;
-    private String prerrequisitos;
+    private String profesor;
 
     public Curso() {}
 
-    public Curso(Long id, String codigo, String nombre, Integer creditos, String prerrequisitos) {
+    public Curso(Long id, String nombre, String codigo, Integer creditos, String profesor) {
         this.id = id;
-        this.codigo = codigo;
         this.nombre = nombre;
+        this.codigo = codigo;
         this.creditos = creditos;
-        this.prerrequisitos = prerrequisitos;
+        this.profesor = profesor;
     }
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
-    public String getCodigo() { return codigo; }
-    public void setCodigo(String codigo) { this.codigo = codigo; }
-
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
+
+    public String getCodigo() { return codigo; }
+    public void setCodigo(String codigo) { this.codigo = codigo; }
 
     public Integer getCreditos() { return creditos; }
     public void setCreditos(Integer creditos) { this.creditos = creditos; }
 
-    public String getPrerrequisitos() { return prerrequisitos; }
-    public void setPrerrequisitos(String prerrequisitos) { this.prerrequisitos = prerrequisitos; }
+    public String getProfesor() { return profesor; }
+    public void setProfesor(String profesor) { this.profesor = profesor; }
 }

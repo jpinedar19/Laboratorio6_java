@@ -1,6 +1,6 @@
-package ejercicio5.com.universidad.ejercicio5.service;
+package com.universidad.ejercicio5.service;
 
-import ejercicio5.com.universidad.ejercicio5.model.Curso;
+import com.universidad.ejercicio5.model.Curso;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -37,10 +37,10 @@ public class CursoService {
 
     public Optional<Curso> actualizar(Long id, Curso cursoActualizado) {
         return obtenerPorId(id).map(c -> {
-            c.setCodigo(cursoActualizado.getCodigo());
             c.setNombre(cursoActualizado.getNombre());
+            c.setCodigo(cursoActualizado.getCodigo());
             c.setCreditos(cursoActualizado.getCreditos());
-            c.setPrerrequisitos(cursoActualizado.getPrerrequisitos());
+            c.setProfesor(cursoActualizado.getProfesor());
             return c;
         });
     }
